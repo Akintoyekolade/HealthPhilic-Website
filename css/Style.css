@@ -1,0 +1,1016 @@
+/* Header */
+header{
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 6%);
+    width: 100%;      
+}
+
+/* Header MOBILE */
+@media screen and (max-width: 768px) {
+    header{
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 6%);
+    }
+
+    .mainheader {
+        background-color: white;
+        list-style: none;   
+        display: flex; 
+        align-content: center;         
+        padding-top: 32px;
+        padding-bottom: 8px;  
+        box-sizing: border-box;
+        max-width: 100%;  
+        justify-content: center;
+    }    
+    
+}
+
+.menu-icon {
+    display: none;
+}
+
+
+header {  
+  position: fixed;
+  top: 0;
+  z-index: 100;
+    /* Additional styles for the header */
+}
+
+main {
+    margin-top: 140px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        margin-top: 80px;
+    }
+
+    .menu-icon {
+        display: block;        
+    }
+
+}
+
+
+/* Top Banner */
+.topbanner {
+    background-color: #EEF6F3;
+    margin-top: 0%;
+    padding-top: 16px;       
+    padding-bottom: 48px; 
+    padding-right: 48px;
+    max-width: 1200px;      
+}
+
+/* search icon */
+.searchicon {
+    width: 24px;
+    margin-right: 40px;
+    align-self: auto;
+    cursor: pointer;
+
+}
+
+/* Top Banner signup button*/
+.signupbutton {
+    border: none;
+    background-color: #EEF6F3;
+    cursor: pointer;
+    font-size: 16px;    
+    
+}
+
+/* Top Banner signup button Hover */
+.signupbutton:hover {
+    color: #3BCE8A;
+}
+
+/* Top Banner Language */
+.topbanner select {
+    border: none;    
+    background-color: #EEF6F3;
+    cursor: pointer;
+    font-size: 16px; 
+    padding-right: 2px; 
+    margin-right: 48px;     
+}
+
+.topbanner select:focus {
+    border-radius: 0px;
+    border: 0px;
+    outline: none;
+}
+
+.topbanner option {
+    font-size: 14px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.topbannercontent {    
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Top Banner MOBILE */
+@media screen and (max-width: 768px) {
+    .topbannercontent {
+    display: none;    
+    }
+
+    .topbanner {
+        display: none;
+    }
+
+    
+}
+
+/* Top Banner MOBILE END */
+
+
+
+/* Nav Bar */
+.mainheader {
+    background-color: white;
+    list-style: none;   
+    display: flex; 
+    align-content: center;      
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 8px;    
+    max-width: 1200px;
+    margin-right: 64px;
+}
+
+/* Logo */
+.logo {
+    width: 268.3px;
+    margin-left: 80px;
+    margin-right: auto
+}
+
+
+/* Nav links */
+header ul {
+    float: right;
+    list-style: none;
+    display: inline-flex;    
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding-right: 48px;
+        
+}
+
+header li {
+    margin-right: 32px;
+    align-content: space-between;
+    float: right;
+}
+
+header a { /* Nav links */
+    text-decoration: none;
+    color: #282828;
+}
+
+/* Nav links Hover*/
+header a:hover {
+    color: #3BCE8A;
+    text-decoration: none;
+}
+
+/* Nav links Active*/
+a.active {
+    text-decoration: none;
+    color: #30AD73;
+    font-weight: 600;
+    position: relative;
+}
+
+
+.indicator {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #30AD73;
+    display: none;
+    
+}
+  
+.indicator {
+    display: block;
+}
+
+
+/* Nav Bar Mobile */
+@media screen and (max-width: 768px) {
+    .nav-links li, button {
+        display: none;
+    }
+
+    .logo {
+        width: 190px;
+        margin-left: 80px;
+        margin-right: auto
+    }
+}
+
+
+/* Book Appointment Button*/
+.bookappointment {
+    background-color: #30AD73;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* Book Appointment Button*/
+.bookappointment:hover {
+    background-color: #3BCE8A;
+    cursor: pointer;
+}
+
+
+/* Text Styles */
+h1 {
+    font-size: 56px;
+    line-height: 110%;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 130%;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.body1 {
+    font-size: 18px;
+    line-height: 160%;
+    font-weight: 490;
+}
+/* Text Styles */
+
+/* Gradient Styles */
+.highlight-gradient {
+    background: linear-gradient(to right, #2DA8E1, #30ad73);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.highlight-gradient-2 {
+    background: linear-gradient(to bottom, #1B6071, #0D281B);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.dark-gradient {
+    background: linear-gradient(to bottom, #1B6071, #0D281B);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+/* Gradient Styles END */
+
+
+/* Button Styles */
+
+/* Primary Button */
+.primary-button {
+    background-color: #30AD73;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* Primary Button Hover*/
+.primary-button:hover {
+    background-color: #3BCE8A;
+    cursor: pointer;
+}
+
+/* Secondary Button */
+.secondary-button {
+    background-color: transparent;
+    color: #30AD73;
+    border: none;
+    box-shadow: inset 0 0 0 2px #30ad73;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* Secondary Button Hover*/
+.secondary-button:hover {
+    background-color: #D6F5E7;
+    cursor: pointer;
+}
+
+/* Tertiary Button */
+.tertiary-button {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    box-shadow: inset 0 0 0 2px #ffffff;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 14px;
+    padding-bottom: 14px;  
+}
+
+/* Tertiary Button Hover*/
+.tertiary-button:hover {
+    background-color: #D4EEFA;
+    color: #2DA8E1;
+    cursor: pointer;
+}
+
+
+/* Button Styles END */
+
+/* Body */
+body {
+    background-color: rgb(255, 255, 255);        
+    color: #282828;
+    font-family: system-ui;            
+} 
+/* Body END*/
+
+/* Styles for Desktop HERO*/
+.hero {    
+    margin-left: 80px;
+    display: flex;
+    align-items: top;
+    margin-right: 80px;
+    padding-top: 64px;    
+}
+
+.maincopy {
+    padding-top: 0%;
+    
+}
+
+
+.hero-section {
+    display: grid;
+    justify-items: center;
+}
+
+/* Styles for mobile HERO */
+@media screen and (max-width: 768px) {
+    .hero {
+        margin-left: 32px;
+        display: grid;
+        justify-content: center;
+        align-items: center;               
+    }
+
+    .hero-section {
+        margin-right: 16px;
+    }
+      
+    .maincopy {
+        display: grid;
+        justify-content: center;
+        padding-top: 0%;
+        margin-bottom: 24px;
+        
+    }  
+
+    .maincopy h1 {
+        font-size: 36px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 8px;
+    }
+
+    .maincopy p {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 16px;
+    }  
+    
+    .maincopy .primary-button {
+        width: 170px;
+        font-size: 14px;
+        padding: 12px 24px;
+        margin: auto;
+    }
+
+    .highlightB {
+    color: #2DA8E1;
+    }
+
+
+    /* Hero image */
+    .hero-image-container img {
+        width: 400px; 
+        margin: auto;
+        
+                   
+    }
+
+}
+/* Styles for mobile HERO END */
+
+
+/* Welcome Section */
+.welcome {
+    padding-left: auto;    
+    background: linear-gradient(rgba(45, 168, 225, 0.1), rgba(48, 173, 115, 0.1));
+    padding-top: 64px;
+    display: grid;
+    justify-items: center; 
+}
+
+.welcome-heading {
+    text-align: center;    
+    padding-bottom: 48px;
+}
+
+.welcome-split-section {
+    display: flex; 
+    margin: 32px;   
+}
+
+.welcome-split-section img {
+    max-height: 460px;
+    margin-right: 90px;
+}
+
+.welcome-copy h3 {
+    padding-bottom: 2px;
+    line-height: auto;
+}
+
+.welcome-copy {
+    padding-bottom: 36px;
+}
+
+.welcome-copy p {
+    margin-bottom: 40px;
+    max-width: 606px;
+}
+
+.rectangle {            
+    width: 150px;
+    height: 4px;
+    background-color: #30AD73;
+    margin-bottom: 40px;
+    
+}
+/* Welcome Section END */
+
+/* Welcome Section Mobile */
+@media screen and (max-width: 768px) {
+    .welcome {
+        padding-left: auto;    
+        background: linear-gradient(rgba(45, 168, 225, 0.1), rgba(48, 173, 115, 0.1));
+        padding-top: 64px;
+        display: grid;
+        justify-items: center; 
+        max-width: 100%;
+    }
+    
+    .welcome-heading {
+        text-align: center;    
+        padding-bottom: 48px;        
+    }
+
+    .welcome-heading h2 {
+        font-size: 28px;
+    }
+    
+    .welcome-split-section {
+        display: grid; 
+        margin: 16
+    px;   
+    }
+    
+    .welcome-split-section img {
+        max-height: 293.26px;
+        margin-right: 90px;
+    }
+    
+    .welcome-copy h3 {
+        padding-bottom: 2px;
+        line-height: auto;
+        font-size: 24px;
+    }
+    
+    .welcome-copy {
+        padding-bottom: 36px;
+        display: grid;
+        justify-content: center;
+    }
+    
+    .welcome-copy p {
+        margin-bottom: 40px;
+        max-width: 370px;
+        text-align: center;
+    }
+    
+    .rectangle {            
+        width: 150px;
+        height: 4px;
+        background-color: #30AD73;
+        margin-bottom: 40px;
+        
+    }
+
+
+}
+
+
+
+/* Welcome Section Mobile END */
+
+
+
+
+
+
+
+
+/* Why Engage Us */
+.why-engage-us {
+    padding: 0px;
+    padding-top: 72px;
+    display: grid;
+    justify-items: center; 
+            
+}
+
+.engage-us-heading {
+    display: grid;  
+    justify-items: center;
+    padding-bottom: 72px;     
+}
+
+.engage-us-heading h2 {
+    line-height: 0px;
+}
+
+
+.engage-benefits-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Adjust the grid template as needed */
+    justify-items: center;    
+
+}
+
+.engage-benefits {    
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 72px;
+    max-width: 384px;
+}
+/* Why Engage Us END */
+
+/* Our Featured Services */
+#Our-featured-services {
+    display: grid;
+    justify-items: center;   
+    padding-top: 48px;
+    background: linear-gradient(rgba(45, 168, 225, 0.1), rgba(48, 173, 115, 0.1));
+    padding-bottom: 120px;
+}
+
+.Feature-service-heading {
+    display: grid;  
+    justify-items: center;
+    padding-bottom: 0px;  
+    text-decoration: none;
+}
+
+.Feature-service-heading h2 {
+    margin-bottom: -8px;   
+}
+
+.highlight-green {
+    color: #30AD73;
+}
+
+/* Our Featured Services - Cards */
+
+#Services-cards {
+    display: flex;  
+    justify-content: space-between;  
+}
+
+.Featured-services-card {
+    position: relative; 
+    margin: 0px 32px;    
+}
+
+.image-card img {
+    width: 340px;
+    border-radius: 20px;
+    padding: 8px;
+    padding-bottom: 104px;    
+}
+
+.image-card {
+    background-color: white;    
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: inline-block;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 10%);
+}
+
+.copy-button {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    display: inline-block;
+    padding: 42px 16px 32px 16px;
+    border-radius: 0px 0px 16px 16px;
+    width: 280px;
+    position: absolute;
+    left: 22px;
+    margin-top: 218px;
+    z-index: 1;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 16%);
+}
+
+.copy-button button {
+    margin-top: 32px;
+}
+
+.copy-button p {
+    margin-bottom: 0px;
+}
+
+#Our-featured-services .secondary-button {
+    margin-top: 172px;    
+}
+
+#Our-featured-services .secondary-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#Our-featured-services .secondary-button .button-text {
+    margin-right: 8px;
+}
+
+.view-all-services img {
+    width: 24px;    
+    box-sizing: border-box;
+    display: flex;
+    align-self: center;
+}
+
+/* Our Featured Services END*/
+
+/* personal-health-record */
+.personal-health-record-container {
+    display: grid;
+    justify-items: center; 
+}
+
+.personal-health-record {    
+    justify-content: center;    
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0px 4px 24px  rgba(0, 0, 0, 12%);
+    border-radius: 20px; 
+    padding: 80px 120px 80px 120px; 
+    margin-top: -80px;      
+}
+
+.personal-health-record-content {
+    display: grid;
+    justify-items: center;   
+    padding-top: 48px;
+
+}
+
+.personal-health-record h2 {
+    max-width: 744px;
+    text-align: center;
+}
+
+.personal-health-record-buttons button {
+    margin: 0px 16px;
+}
+
+/* Our Featured Services END */
+
+/* Testimonial Section */
+.testimonial-section {
+    display: grid;
+    justify-content: center;
+    margin-top: 72px;
+    justify-items: center; 
+    margin-bottom: 128px;
+}
+
+.testimonial-content {
+    display: inline-flex;    
+    justify-content: center;     
+    margin-top: 40px;  
+    margin-bottom: 36px; 
+}
+
+.testimonial-section img:hover {
+    cursor: pointer;
+}
+
+.testimonial-content .body1 {
+    max-width: 540px ;
+    text-align: center;
+}
+
+.testimonial-text {
+    display: grid;
+    justify-items: center;
+    background-color: white;    
+    padding: 16px 32px;
+    border: none;
+    box-shadow: inset 10px 0 0 0 #0d281b;
+    border-radius: 10px;    
+}
+
+.testimonial-text-container {
+    display: inline-block;
+    justify-content: center; 
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 12%);   
+    border-radius: 10px;
+    margin: 0px 120px;
+}    
+
+
+#slider-1, #slider-2, #slider-3 {
+    width: 16px;
+    height: 16px;
+    accent-color: rgb(112, 112, 113);    
+}
+
+#slider-1, #slider-2, #slider-3:hover {
+    cursor: pointer; 
+}
+
+/* Testimonial Section END */
+
+/* Subscription */
+.subscription-container {
+    background: linear-gradient(rgba(45, 168, 225, 0.1), rgba(48, 173, 115, 0.1));
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.subscription-text-container {
+    max-width: 550px;
+    text-align: center;
+    margin-right: 110px;
+}
+
+.subscription-text-container .body1 {
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.subscription-text-container .primary-button {
+    width: 550px;
+    height: 56px;
+} 
+
+.subscription-text-container #Email {
+    width: 530px;
+    margin-bottom: 24px;
+    margin-top: 32px;
+    height: 52px;
+    border-radius: 8px;
+    padding-left: 16px;
+    border: none;
+    box-shadow: inset 0 0 0 1px #CED4DA;
+    background-color: white;
+} 
+
+.subscription-container img {
+    width: 260px;
+}
+
+/* Subscription END */
+
+/* Appointment Banner */
+.appointment-banner {
+    display: inline-block;       
+    display: grid;
+    justify-content: center;    
+    margin-top: 96px;
+    margin-bottom: 76px;
+}
+
+.banner-container {
+    background-image: url(../Assets/Girl\ at\ an\ online\ consultation\ with\ a\ psychologist.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 500px;
+    background-color: #2DA8E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 96px;
+    width: 800px;
+}
+
+.banner-container h3 {
+    max-width: 564px;
+    color: white;
+}
+
+
+/* Appointment Banner END*/
+
+
+/* Footer */
+footer {
+    background: linear-gradient(rgb(15, 59, 69), rgb(8, 26, 17));
+    padding: 70px 80px;
+    display: grid;
+    justify-content: center;
+    
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.about-company {
+    max-width: 290px;
+    display: grid;       
+}
+
+.about-company .body1 {
+    color: white;
+    font-size: 16px;
+    padding-top: 24px;
+    margin: 0px;
+}
+
+.socials-icon img {
+    width: 32px;
+    padding: 4px;
+}
+
+.socials-icon {
+    margin-top: 32px;
+}
+
+.footer-line {
+    width: 1000px;
+    height: 1px;
+    background-color: #89948F;
+    margin-bottom: 32px;
+    margin-top: 40px;
+
+}
+
+
+.quick-links-head {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 24px;    
+}
+
+.quick-links-head p {
+    margin-bottom: auto;    
+    margin-top: auto;
+}
+
+.quick-links h5 {
+    color: white;
+    font-size: 18px;    
+    margin: 0px;
+    font-weight: 400; 
+    padding-bottom: 24px;   
+    
+}
+
+.quick-links .rectangle {
+    width: 50px;
+    height: 1.7px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-bottom: 24px;  
+}
+
+.footer-contact h5 {
+    padding: 0px;
+    margin-top: 0px;
+    padding-bottom: 4px;
+}
+
+.quick-links .footer-links {
+    display: grid;
+    justify-content: left;
+    
+}
+
+.footer-contact-head p {
+    margin-bottom: auto;    
+    margin-top: auto;
+}
+
+.footer-contact-head .rectangle {
+    width: 50px;
+    height: 1.7px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.footer-contact-head {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 24px;    
+}
+
+.contact-links h5 {
+    color: white;
+    font-size: 18px;   
+    font-weight: 400; 
+    padding-bottom: auto;   
+    margin-top: 0px;
+}
+
+.contact-links-1 {
+    display: flex;
+    justify-content: left;   
+    margin-bottom: auto; 
+}
+
+.contact-links-1 img {
+    margin-right: 10px;
+    height: 24px;        
+}
+
+footer a {
+    color: white;
+}
+
+.copyright {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rectangle-footer {
+    width: 1px;
+    height: 19.4px;      
+    background-color: white;
+    margin-left: 16px;
+    margin-right: 16px;    
+    margin-top: 0px;
+    margin-bottom: 16px;
+
+}
+
+.copyright p {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+
+/* Footer END*/

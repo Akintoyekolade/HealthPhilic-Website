@@ -1,0 +1,46 @@
+<div class="transfer__window uploader--progress">
+	<div class="transfer__contents">
+	<div class="spinner transfer__spinner spinner--rotate spinner--double">
+<svg height="170" width="170" class="spinner__circle" shape-rendering="geometricPrecision" viewBox="0 0 170 170">
+<circle class="spinner__background" r="80" cx="85" cy="85" fill="transparent" style="stroke-dasharray: 502.655; stroke-dashoffset: 0; stroke-width: 10; stroke: rgb(232, 235, 237);"></circle><circle class="spinner__foreground" r="80" cx="85" cy="85" fill="transparent" style="stroke-dasharray: 502.655; stroke-dashoffset: 356.885; stroke-width: 10; stroke: rgb(82, 104, 255);"></circle></svg><span class="spinner__label">29<span>%</span></span></div><h2>Transferring...</h2><p>Sending 1 file to 1 person</p><p>91.3 MB of 309.8 MB uploaded</p><p>About 26 minutes remaining</p></div><div class="transfer__footer"><button class="transfer__button transfer__button--alt">Cancel</button></div></div>
+
+
+    text-size-adjust: 100%;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    height: 100%;
+    border-radius: 10px;
+
+
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-family: Actief Grotesque Normal,-apple-system,\.SFNSText-Regular,San Francisco,Roboto,Segoe UI,Helvetica Neue,Lucida Grande,sans-serif;
+    height: 170;
+    width: 170;
+    shape-rendering: geometricprecision;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    animation: spinner--rotate 2s linear infinite;
+    transform-origin: 50% 50%;
+
+
+
+
+
+
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-family: Actief Grotesque Normal,-apple-system,\.SFNSText-Regular,San Francisco,Roboto,Segoe UI,Helvetica Neue,Lucida Grande,sans-serif;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    color: #484a4d;
+    font-size: .875em;
+    line-height: 1.2857142857em;
+    margin: 0 0 .9285714286em;
+    padding: 0;
+    text-align: center;
+    white-space: pre-wrap;
